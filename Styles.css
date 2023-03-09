@@ -1,0 +1,66 @@
+/* *{
+    margin: 0;
+    padding: 0;   
+} */
+body{
+    font-family: 'Karma',sans-serif;
+    /* margin: 0;
+    padding: 0; */
+}
+
+.sideMenu{
+    height: 100vh;
+    width: 50%;
+    background-color: whitesmoke;
+    z-index: 9999;
+    position: fixed;
+    font-size: 28px;
+}
+
+.sideMenu span{
+    /* display: block; */
+    padding: 10px;
+}
+.sideMenu span:hover{
+    background-color: rgb(222, 218, 218);
+}
+
+#sideMenu1{
+    display: none;
+}
+
+.MainMenu{
+    min-height: 50px;
+    font-size: 24px;
+    font-weight: 500;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.grids-img{
+    max-width: 300px !important;
+}
+
+
+.example{
+    font-size: 20px !important;
+}
+
+.Blogs img{
+    max-width: 60px;
+}
+
+.BlogsList:hover{
+    background-color: rgb(222, 218, 218);
+}
+
+.chips-container1 .abc{
+    background-color: gray;
+    color: white;
+}
+.chips-container1 .abc:first-child{
+    background-color: black;
+    /* min-height: 50px; */
+    color: white;
+}
